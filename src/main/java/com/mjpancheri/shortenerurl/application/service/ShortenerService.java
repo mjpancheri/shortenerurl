@@ -1,11 +1,10 @@
 package com.mjpancheri.shortenerurl.application.service;
 
+import com.mjpancheri.shortenerurl.core.exception.InvalidUrlException;
 import com.mjpancheri.shortenerurl.core.exception.ResourceNotFoundException;
 import com.mjpancheri.shortenerurl.core.shortener.Consumer;
 import com.mjpancheri.shortenerurl.core.shortener.Shortener;
-import com.mjpancheri.shortenerurl.core.shortener.dto.FullUrlResponse;
 import com.mjpancheri.shortenerurl.core.shortener.dto.ShortenerDto;
-import com.mjpancheri.shortenerurl.core.exception.InvalidUrlException;
 import com.mjpancheri.shortenerurl.infrastructure.persistence.ShortenerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
